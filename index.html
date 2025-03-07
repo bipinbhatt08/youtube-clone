@@ -238,7 +238,15 @@ rgb(241, 241, 241);
             overflow-y: scroll;
             scroll-behavior: smooth;
         }
-        
+        .sidebar::-webkit-scrollbar{
+            width: 8px;
+        }
+        .sidebar::-webkit-scrollbar-track {
+        background-color:#0F0F0F;}
+
+        .sidebar::-webkit-scrollbar-thumb {
+        background-color: rgb(108, 107, 107)  ;
+        }
         
         ul{
             list-style-type: none;
@@ -326,12 +334,12 @@ rgb(241, 241, 241);
                     <button>Home</button>
                 </li>
                 <li>
-                    <div class="icon"><i class="fa-solid fa-house"></i></div>
-                    <button>Home</button>
+                    <div class="icon"><i class="fa-solid fa-video"></i></div>
+                    <button>Short</button>
                 </li>
                 <li>
-                    <div class="icon"><i class="fa-solid fa-house"></i></div>
-                    <button>Home</button>
+                    <div class="icon"><i class="fa-solid fa-credit-card"></i></div>
+                    <button>Subscriptions</button>
                 </li>
                 <hr>
                 <li>
@@ -433,8 +441,6 @@ rgb(241, 241, 241);
                 <button>MERN Stack</button>
                 <button>Full Stack Development</button>
                 <button>React</button>
-                <button>MongoDb</button>
-                <button>English</button>
             </div>
             <div class="videos-container">
                 <div class="vdo-card">
